@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: deploydemo-2-config
+  namespace: kube-public
+  labels:
+    app.kubernetes.io/name: deploydemo-2
+    kubernetes.azure.com/generator: devhub
+data:
